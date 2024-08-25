@@ -22,5 +22,5 @@ app.use("/api/groups", groupRoutes);
 
 server.listen(process.env.PORT, () => {
   console.log("Server is running on port" , process.env.PORT);
-  console.log("Api documentation click the link http://localhost:8080/api-docs/#/");
+  console.log("Api documentation click the link https://alter-office-sfza.onrender.com/api-docs/#/");
 });
